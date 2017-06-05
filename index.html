@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Forms</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400" rel="stylesheet">
+</head>
+
+<body>
+    <div id="page">
+            <header>
+                <div class="top-logo">
+                    <img src="images/logo_top.png" alt="masteralb_logo"/>
+                </div>
+                <!--.top-logo-->
+            </header>
+        <main class="main-container">
+            <div class="content-left">
+                <div class="form-block-wrapper">
+                    <h2>Register Form</h2>
+                    <div class="form-block-bg">
+                        <form>
+                           <div class="input-block">
+                               <label for="user_name">
+                                   <img src="images/glyphicons_5_user.png" alt="glyph_user">
+                               </label>                               
+                               <input type="text" name="user-name" placeholder="Username">
+                           </div>
+                           <!--.input-block-->
+                           <div class="input-block">
+                               <label for="user-password">
+                                   <img src="images/glyphicons_1_lock.png" alt="glyph_user">
+                               </label>                               
+                               <input type="text" name="user-password" placeholder="Password">
+                           </div>
+                           <!--.input-block-->
+                           <div class="input-block">
+                               <label for="user-conifrm-password">
+                                   <img src="images/glyphicons_1_lock.png" alt="glyph_user">
+                               </label>                               
+                               <input type="text" name="user-conifrm-password" placeholder="Confirm Password">
+                           </div>
+                           <!--.input-block-->
+                           <div class="input-block">
+                               <label for="user-email">
+                                   <img src="images/glyphicons_2_envelope.png" alt="glyph_user">
+                               </label>                               
+                               <input type="text" name="user-email" placeholder="Email">
+                           </div>
+                           <!--.input-block-->
+                           <div class="input-block">
+                               <label for="user_location">
+                                   <img src="images/glyphicons_3_google_maps.png" alt="glyph_user">
+                               </label>                               
+                               <select>
+                                   <option select hidden>Your Location</option>
+                                   <option value="barcelona">Barcelona</option>
+                                   <option value="warsaw">Warsaw</option>
+                                   <option value="new-york">New York</option>
+                                   <option value="roma">Roma</option>
+                               </select>
+                           </div>
+                           <!--.input-block-->
+                           <div class="checkbox-wrap">
+                            <input type="checkbox" id="accept">
+                            <label for="accept">
+                                <span></span>
+                            </label>
+                            <label for="accept">
+                                <span class="checkbox-text">I have read and accept the terms of use.</span>
+                            </label>
+                           </div>
+                           <!--.checkbox-wrap-->
+                           <button class="btn-green btn-long">Sign up</button >
+                        </form>
+                    </div>
+                    <!--.form-block-bg-->
+                </div>
+                <!--.form-block-wrapper-->
+
+                <div class="form-block-wrapper">
+                    <h2>Send Email</h2>
+                    <div class="form-block-bg">
+                        <form>
+                           <div class="input-block">
+                               <label for="user_name">
+                                   <img src="images/glyphicons_5_user.png" alt="glyph_user">
+                               </label>                               
+                               <input type="text" name="user-name" placeholder="Your Name">
+                           </div>
+                           <!--.input-block-->
+                           <div class="input-block">
+                               <label for="user-email">
+                                   <img src="images/glyphicons_2_envelope.png" alt="glyph_email">
+                               </label>                               
+                               <input type="text" name="user-email" placeholder="Your Email">
+                           </div>
+                           <!--.input-block-->
+                               <label for="message">
+                                    <textarea id="message" name="user-message" placeholder="Type your message..."></textarea>
+                               </label>
+
+                         
+                           <div class="checkbox-wrap">
+                            <input type="checkbox" id="accept-mail">
+                            <label for="accept-mail">
+                                <span></span>
+                            </label>
+                            <label for="accept-mail">
+                                <span class="checkbox-text">Send a copy to my Email</span>
+                            </label>
+                           </div>
+                           <!--.checkbox-wrap-->
+                           <button class="btn-green btn-long">Send Email</button >
+                   
+                        </form>
+                    </div>
+                    <!--.form-block-bg-->
+                </div>
+                <!--.form-block-wrapper-->
+
+
+            </div>
+            <!--.content-left-->
+            <div class="content-right">
+                <div class="form-block-wrapper">
+                    <h2>Sign In Form</h2>
+                    <div class="form-block-bg">
+                        <form>
+                           <div class="input-block">
+                               <label for="user_name">
+                                   <img src="images/glyphicons_5_user.png" alt="glyph_user">
+                               </label>                               
+                               <input type="text" name="user-name" placeholder="Username">
+                           </div>
+                           <!--.input-block-->
+                           <div class="input-block">
+                               <label for="user-password">
+                                   <img src="images/glyphicons_1_lock.png" alt="glyph_password">
+                               </label>                               
+                               <input type="text" name="user-password" placeholder="Password">
+                           </div>
+                           <!--.input-block-->
+                    
+                            <div class="form-wrapper">
+                                <div class="checkbox-wrap">
+                                    <input type="checkbox" id="accept-sign">
+                                    <label for="accept-sign">
+                                        <span></span>
+                                    </label>
+                                    <label for="accept-sign">
+                                        <span class="checkbox-text">Remember me</span>
+                                    </label>
+                                </div>
+                                <!--.checkbox-wrap-->
+                                <button class="btn-green">Sign In</button >                               
+                            </div>
+                            <!--.form-wrapper-->
+                        </form>
+                    </div>
+                    <!--.form-block-bg-->
+                </div>
+                <!--.form-block-wrapper-->
+
+                <div class="form-block-wrapper">
+                    <h2>Recover Form</h2>
+                    <div class="form-block-bg">
+                        <form>
+                           <div class="input-block">
+                               <label for="user_email">
+                                   <img src="images/glyphicons_2_envelope.png" alt="glyph_email">
+                               </label>                               
+                               <input type="text" name="user-email" placeholder="Enter your Email">
+                           </div>
+                           <!--.input-block-->
+                           <div class="input-block">
+                               <label for="user-phone">
+                                   <img src="images/glyphicons_4_phone.png" alt="glyph_phone">
+                               </label>                               
+                               <input type="text" name="user-phone" placeholder="Enter your Phone number">
+                           </div>
+                           <!--.input-block-->
+                    
+                            <div class="form-wrapper">
+                                <button class="btn-green">Send</button >   
+                                <button class="btn-green" disabled="true">Done</button >                               
+                            </div>
+                            <!--.form-wrapper-->
+                        </form>
+                    </div>
+                    <!--.form-block-bg-->
+                </div>
+                <!--.form-block-wrapper-->
+
+                <div class="form-block-wrapper">
+                    <h2>Subscribe Form</h2>
+                    <div class="form-block-bg">
+                        <form>
+                           <div class="input-block">
+                               <label for="user_email">
+                                   <img src="images/glyphicons_2_envelope.png" alt="glyph_email">
+                               </label>                               
+                               <input type="text" name="user-email" placeholder="Enter your Email">
+                           </div>
+                           <!--.input-block-->
+                    
+                            <div class="form-wrapper">
+                                <button class="btn-green">Subscribe</button >   
+                                <button class="btn-red">No, Thanks</button >                               
+                            </div>
+                            <!--.form-wrapper-->
+                        </form>
+                    </div>
+                    <!--.form-block-bg-->
+                </div>
+                <!--.form-block-wrapper-->
+                <div class="bottom-logo">
+                    <img src="images/logo_bot.png" alt="masteralb-creative">
+                </div>
+                <!--.bottom-logo-->
+            </div>
+            <!--.content-right-->
+        </main>
+        <!--.main-container-->
+    </div>
+    <!--#page-->
+
+</body>
+
+</html>
